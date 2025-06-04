@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(255,255,255,0.85);
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.file-input {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #8f94fb, #4e54c8);
+}
+
+.result {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f0f4ff;
+    border-radius: 8px;
+    text-align: center;
+    color: #222;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: calc(5 * 120px + 4 * 12px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumb {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
